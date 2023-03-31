@@ -1,0 +1,125 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb RunAs
+ENTER
+DELAY 5000
+ALT y
+DELAY 500
+STRING Get-AppxPackage *Microsoft.3DBuilder* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.GetHelp* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Getstarted* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.People* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.SkypeApp* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Office.OneNote* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsMaps* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.MixedReality.Portal* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Office.Sway* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Xbox.TCUI* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.BingWeather* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsAlarms* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsCamera* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsCommunicationsApps* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Windows.Photos* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsStore* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING exit
+ENTER
+DELAY 500
+ALT F4DELAY 1000
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb RunAs
+ENTER
+DELAY 5000
+ALT y
+DELAY 500
+STRING Get-AppxPackage *Microsoft.3DBuilder* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.GetHelp* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Getstarted* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.People* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.SkypeApp* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Office.OneNote* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsMaps* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.MixedReality.Portal* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Office.Sway* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.Xbox.TCUI* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.BingWeather* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsAlarms* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsCamera* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING Get-AppxPackage *Microsoft.WindowsCommunicationsApps* | Remove-AppxPackage
+ENTER
+DELAY 1000
+STRING exit
+ENTER
+DELAY 500
+ALT F4
